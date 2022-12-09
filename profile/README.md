@@ -1,0 +1,75 @@
+<h1 align="center">
+<img width="50%" src="https://user-images.githubusercontent.com/72238126/206611166-8e1350e2-c0ed-4201-9b5b-1f5fd33e2490.png"/>
+</h1>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Kotlin-232F3E?style=flat-square&logo=kotlin&logoColor=FFFFFF"/>
+<img src="https://img.shields.io/badge/Android-232F3E?style=flat-square&logo=android&logoColor=FFFFFF"/>
+<img src="https://img.shields.io/badge/Javascript-232F3E?style=flat-square&logo=javascript&logoColor=FFFFFF"/>
+<img src="https://img.shields.io/badge/Node.js-232F3E?style=flat-square&logo=nodedotjs&logoColor=FFFFFF"/>
+<img src="https://img.shields.io/badge/MongoDB-232F3E?style=flat-square&logo=mongodb&logoColor=FFFFFF"/>
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=FFFFFF"/>
+
+</p>
+<p align="center">
+"Zone Trainer is a mobile application that allows you to easily check and record your brain waves with EEG headset."
+</p>
+
+![image](https://user-images.githubusercontent.com/72238126/206609778-4af3d620-c95e-4464-9958-909838228fdc.png)
+
+<br>
+
+# Download
+
+Go to the [Releases](https://github.com/neurosky-internship/zonetrainer-android/releases/tag/v1.0.0) to download the installable APK file.
+
+<br>
+
+# Tech Stack
+
+### Android
+
+- 100% [Kotlin](https://kotlinlang.org/) based.
+- [Coroutines](https://github.com/Kotlin/kotlinx.coroutines) + [Flow](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/) for asynchronous.
+- [Gradle Version Catalog](https://docs.gradle.org/current/userguide/platforms.html) for control version of dependencies.
+- Jetpack
+  - Lifecycle: Observe Android lifecycles and handle UI states upon the lifecycle changes.
+  - ViewModel: Manages UI-related data holder and lifecycle aware.
+  - [Hilt](https://dagger.dev/hilt/): for dependency injection.
+  - [Compose](https://developer.android.com/jetpack/compose): for implementation of UI/UX.
+- Architecture
+  - MVVM Architecture (View - ViewModel - Model)
+  - Unidirectional Data Flow Pattern
+  - Repository Pattern
+- [Retrofit2 & OkHttp3](https://github.com/square/retrofit): Construct the REST APIs and exchange network data.
+- Bluetooth Adapter for connection with MindWave EEG headset.
+- Google Auth API with [OAuth2.0](https://developers.google.com/identity/protocols/oauth2)
+- [HBRecorder](https://github.com/HBiSoft/HBRecorder) for record screen while training.
+
+### Back-End
+
+- foo
+- bar
+
+<br>
+
+# Contributors
+- [KH Lee](https://neurosky.com/)
+- [YJ Yoon](https://github.com/yjyoon-dev)
+- [BH Kim](https://github.com/cindybohyeon)
+
+<br>
+
+# Thanks to Neurosky, Inc.
+
+```
+NeuroSky, Inc. is a manufacturer of brain-computer interface (BCI) technologies
+for consumer product applications, which was founded in 2004 in Silicon Valley, California.
+The company adapts electroencephalography (EEG) and electromyography (EMG) technology
+to fit a consumer market within a number of fields such as entertainment (toys and games),
+education, automotive, and health.
+
+This application was developed with the help of the SDK and EEG device provided by NeuroSky.
+Thanks a lot for giving us educational opportunities on internships.
+```
