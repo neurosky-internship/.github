@@ -1,5 +1,5 @@
 <h1 align="center">
-<img width="50%" src="https://user-images.githubusercontent.com/72238126/206611166-8e1350e2-c0ed-4201-9b5b-1f5fd33e2490.png"/>
+<img width="50%" src="https://user-images.githubusercontent.com/72238126/206612101-5d421687-5db6-4a22-92cb-62a501743704.png"/>
 </h1>
 
 <p align="center">
@@ -16,7 +16,7 @@
 "Zone Trainer is a mobile application that allows you to easily check and record your brain waves with EEG headset."
 </p>
 
-![image](https://user-images.githubusercontent.com/72238126/206609778-4af3d620-c95e-4464-9958-909838228fdc.png)
+![image](https://user-images.githubusercontent.com/72238126/206612172-0b9823e4-0091-420c-a652-827d14b181a1.png)
 
 <br>
 
@@ -30,7 +30,7 @@ Go to the [Releases](https://github.com/neurosky-internship/zonetrainer-android/
 
 ### Android
 
-- 100% [Kotlin](https://kotlinlang.org/) based.
+- 100% [Kotlin](https://kotlinlang.org/) based including Kotlin DSL for Gradle.
 - [Coroutines](https://github.com/Kotlin/kotlinx.coroutines) + [Flow](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/) for asynchronous.
 - [Gradle Version Catalog](https://docs.gradle.org/current/userguide/platforms.html) for control version of dependencies.
 - Jetpack
