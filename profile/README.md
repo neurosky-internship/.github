@@ -26,6 +26,14 @@ Go to the [Releases](https://github.com/neurosky-internship/zonetrainer-android/
 
 <br>
 
+# Features
+
+- Check your brain waves in real-time with EEG headset.
+- Record screen with your appearance and brain waves together.
+- Show dashboard of your recent brain waves data.
+
+<br>
+
 # Tech Stack
 
 ### Android
