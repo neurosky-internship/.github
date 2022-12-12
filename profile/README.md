@@ -57,8 +57,23 @@ Go to the [Releases](https://github.com/neurosky-internship/zonetrainer-android/
 
 ### Back-End
 
-- foo
-- bar
+- [JavaScript](https://www.javascript.com/) 
+- [Node.js](https://nodejs.org/) open-source, cross-platform JavaScript runtime environment.
+  -     $ node --version
+        v14.18.1
+- [Express](https://expressjs.com) Fast, unopinionated, minimalist web framework for Node.js.
+- DataBase
+  - [MongoDB](https://www.mongodb.com)
+  - ORM
+    - [Mongoose](https://mongoosejs.com/)
+    - a straight-forward, schema-based solution to model
+  - [MongoAtlas](https://www.mongodb.com/atlas/database) multi-cloud database service built for resilience, scale, and the highest levels of data privacy and security.
+- Server
+  - [AWS EC2](https://aws.amazon.com/) (Ubuntu Platform) 
+- Architecture
+  - MVC Architecture (Model - View - Controller)
+  - Interactional Data Flow Pattern
+
 
 <br>
 
